@@ -12,7 +12,7 @@ Generated locally using **gemma4:12b** via Ollama and OpenSSF OSV threat data.
 ### AI Threat Analysis (`gemma4:12b`)
 
 [AI Explanation (gemma4:12b)]
-This difference is dangerous because it signifies that a software dependency has been compromised to perform unauthorized actions, such as data exfiltration or remote code execution. It represents a critical software supply chain vulnerability where malicious code is injected into the development environment to compromise downstream users. Identifying these malicious packages is essential for maintaining the integrity of the software production pipeline.
+This is dangerous because malicious packages can execute arbitrary code during installation or runtime, allowing attackers to compromise systems and exfiltrate sensitive data. Such threats exploit the trust inherent in software supply chains to distribute malware to a wide range of users. The high severity rating indicates a significant risk to system integrity and security.
 
 ---
 
@@ -24,7 +24,7 @@ This difference is dangerous because it signifies that a software dependency has
 ### AI Threat Analysis (`gemma4:12b`)
 
 [AI Explanation (gemma4:12b)]
-This difference represents a **typosquatting** attack where a malicious package mimics a legitimate one (like `metaflow`) to deceive developers into installing it. It is dangerous because it allows the package to execute arbitrary code, steal credentials, or exfiltrate data during the installation or build process. This is a common tactic used in software supply chain attacks to compromise trusted development environments.
+This difference is dangerous because the package `nflx-metaflow` is identified as a malicious package, likely employing typosquatting to impersonate legitimate software. Such packages can execute unauthorized actions, including data exfiltration, system compromise, or the installation of persistent backdoors. While the installation process mimics standard behavior, the underlying code is designed to compromise the software supply chain.
 
 ---
 
@@ -36,7 +36,7 @@ This difference represents a **typosquatting** attack where a malicious package 
 ### AI Threat Analysis (`gemma4:12b`)
 
 [AI Explanation (gemma4:12b)]
-This difference is dangerous because malicious packages can execute unauthorized code to steal credentials, exfiltrate data, or establish persistent access to a system. While some packages legitimately perform network operations, unexpected behavior in a package flagged as malicious represents a significant software supply chain risk. Such behavior allows attackers to compromise the development environment or production infrastructure.
+This package is dangerous because it contains malicious code designed to perform unauthorized actions, such as stealing sensitive data or credentials. Unlike legitimate software, which only executes functions necessary for its intended purpose, this package compromises system security and integrity. Such behavior represents a significant threat to data privacy and should be treated as a high-severity security risk.
 
 ---
 
@@ -48,7 +48,7 @@ This difference is dangerous because malicious packages can execute unauthorized
 ### AI Threat Analysis (`gemma4:12b`)
 
 [AI Explanation (gemma4:12b)]
-This difference is dangerous because it indicates a supply chain attack where a package performs unauthorized actions, such as data exfiltration or system compromise. Malicious packages often masquerade as legitimate tools to evade detection while executing harmful payloads. The "malicious_package_advisory" classification confirms that these behaviors are intentional security threats rather than standard functional variations.
+This comment is a common convention used in configuration files to prevent users from manually altering system-generated settings. In the context of a malicious package, however, it can serve as a decoy to hide malicious payloads or configuration changes from casual inspection. Therefore, while the syntax is standard, its presence in untrusted software can be a tactic for obfuscation.
 
 ---
 
@@ -60,7 +60,7 @@ This difference is dangerous because it indicates a supply chain attack where a 
 ### AI Threat Analysis (`gemma4:12b`)
 
 [AI Explanation (gemma4:12b)]
-This difference is dangerous because it indicates a malicious package designed to perform unauthorized actions, such as stealing credentials or compromising system integrity. Such behavior is not normal and represents a critical risk to the software supply chain, as it allows attackers to execute arbitrary code under the guise of a legitimate dependency. This type of threat is a common method for distributing malware and gaining persistent access to victim environments.
+This difference is dangerous because the package is identified as malicious, meaning it can execute unauthorized code to steal sensitive data or compromise the host system. Unlike legitimate software, it contains hidden payloads designed to exploit the user's environment during installation or execution. This represents a significant security risk within the software supply chain.
 
 ---
 
